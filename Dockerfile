@@ -4,5 +4,6 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 8080
+ENTRYPOINT []
 CMD [ "npm", "start" ]
-`--entrypoint=''`
+
